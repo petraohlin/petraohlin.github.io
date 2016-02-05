@@ -1,0 +1,38 @@
+[
+  {
+      "title": "Trippel",
+      "description": "I was, together with two friends, hired as consultants to develop a recruitment tool for our study programme. The project included everything from gathering projects to design the interface and implement it in code.",
+      "thumbnail": "url(././images/thumbnails/trippel.png)",
+      "link": "https://github.com/mattiaspalmgren/trippel",
+      "type": "work"
+  },
+  {
+      "title": "Polygon",
+      "description": "An interactive music video or experience in space with the goal to create a delightful feeling. The application is web based and built in webGL and with three.js.",
+      "thumbnail": "url(././images/thumbnails/poly.png)",
+      "link": "http://petraohlin.github.io/Polygon/",
+      "type": "school"
+
+  },
+    {
+      "title": "Labyrint",
+      "description": "I was, together with two friends, hired as consultants to develop a recruitment tool for our study programme. The project included everything from gathering projects to design the interface and implement it in code.",
+      "thumbnail": "url(././images/thumbnails/lab.png)",
+      "link": "https://github.com/mattiaspalmgren/Labyrint" ,
+      "type": "school"
+  },
+  {
+      "title": "Kuling",
+      "description": "Kuling is a weather application with multiple data sources. It was built in Angular-Dart and was the foundation of our bachelor thesis that e.g. discussed the ability to combine Dart with JavaScript and how agile principles influence the development of the application.",
+      "thumbnail": "url(././images/thumbnails/kuling.png)",
+      "link": "https://github.com/RiiQQe/WeatherApplication",
+      "type": "school"
+  },
+  {
+      "title": "Play-by-ear",
+      "description": "A music quiz game using Spotify's Android SDK develpoed for Android.",
+      "thumbnail": "url(././images/thumbnails/play-by-ear.png)",
+      "link": "https://github.com/petraohlin/play-by-ear",
+      "type": "school"
+  }
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="petraApp">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="favicon.ico">
+
+		<!-- Bootstrap -->
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Angular -->
+		<script src="bower_components/angular/angular.min.js"></script>
+
+		<!-- Angular, main module -->
+		<script src="app/app.js"></script>
+		<script src="app/main.controller.js"></script>
+
+		<!-- Style -->
+		<link rel='stylesheet' href='style.css'>
+
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+		<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+		<title>Petra &Ouml;hlin</title>
+	</head>
+	<body ng-controller="mainController">
+		
+		  	<h1 align="center" class="main-heading">Petra &Ouml;hlin</h1>
+		  	<p align="center">// Likes the web & what one can create within it</p>
+		  	<div class="content">
+				<div class="row">
+					<div class="grow col-xs-4">	
+						<h2 align="center"><a href="https://se.linkedin.com/in/petraohlin"><i class="fa fa-linkedin-square"></i></a></h2>
+					</div>
+					<div class="grow col-xs-4">	
+						<h2 align="center"><a href="https://github.com/petraohlin"><i class="fa fa-github-square"></i></a></h2>
+					</div>
+					<div class="grow col-xs-4">				
+						<h2 align="center"><a href="https://www.instagram.com/hejpetra/"><i class="fa fa-instagram"></i></a></h2>
+					</div>
+				</div>
+			</div>
+			<div class="first-block">
+				<div id="bicycle" class="drive" ng-show="showWidth">
+					<h3>
+						<i class="fa fa-bicycle"></i>
+					</h3>
+				</div>
+				<div id="motorcycle" class="drive" ng-show="showWidth">
+					<h3>
+						<i class="fa fa-motorcycle"></i>
+					</h3>
+				</div>
+				<div id="plane" ng-show="showWidth">
+					<h3>
+						<i class="fa fa-plane"></i>
+					</h3>
+				</div>
+				<div id="ambulance" class="drive" ng-show="showWidth">
+					<h3>
+						<i class="fa fa-ambulance"></i>
+					</h3>
+				</div>
+			</div>
+			<div class="first-block mint">
+				<h1 align="center" class="heading"> Need my help? </h1>
+				<p align="center"> With anything that have to do with </br> creative develpoment, <i class="fa fa-coffee"></i> or both. </p>
+				<div class="content">
+					<div class="col-xs-6 grow">
+						<p align="center">
+							<a href="mailto:mail@petraohlin.se"><i class="fa fa-envelope"></i></a>
+						</p>
+					</div>
+					<div class="col-xs-6 grow">
+						<p align="center">
+							<a ng-click="onItemClicked()">
+								<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+							</a>
+						</p>
+						<div ng-show="show">
+							<p>
+								+41787952522
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</body>
+</html>
