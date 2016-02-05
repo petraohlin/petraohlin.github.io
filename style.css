@@ -47,17 +47,12 @@ body {
 }
 
 
-.content{
+.center-block{
 	width: 25vw;
 	margin: 0 auto;
 }
 
 .block{
-	height: 100vh;
-	width: 100vw;
-}
-
-.first-block{
 	height: 50vh;
 	width: 100vw;
 }
@@ -67,7 +62,6 @@ body {
 	top: 150vh;
 	position: absolute;
 }
-
 
 .grow{
 	float: left;
@@ -86,7 +80,6 @@ body {
 	padding-top: 15vh;
 	font-size: 8vh;
 }
-
 
 .drive{
     -webkit-animation: drive; /* Chrome, Safari, Opera */
@@ -140,16 +133,9 @@ body {
 	position: absolute;
 	left: -10vw;
 	/* Chrome, Safari, Opera */
-	-webkit-animation-name: fly; 
-    -webkit-animation-duration: 25s; 
-    -webkit-animation-iteration-count: infinite; 
-    -webkit-animation-delay: 5s;
+	-webkit-animation: fly 15s linear 5s infinite; 
     /* Standard */
-    animation-name: fly;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    animation-delay: 5s;
-
+    animation: fly 15s linear 5s infinite; 
 }
 
 
@@ -168,19 +154,19 @@ body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes fly {
     0%   {left:-10vw; top: 70vh;}
-    25%	 {-webkit-transform: rotate(40deg);}
-    50%	 {top: 10vh; transform: -webkit-rotate(50deg);}
-    75%	 {-webkit-transform: rotate(100deg);}
-    100% {left:110vw; top: 40vh;}
+    25%	 {top: 30vh; -webkit-transform: rotate(40deg);}
+    50%	 {top: 10vh; transform: -webkit-rotate(40deg);}
+    75%	 {top: 15vh; transform: -webkit-rotate(40deg);}
+    100% {left:110vw; top: 20vh; transform: -webkit-rotate(40deg);}
 }
 
 /* Standard syntax */
 @keyframes fly {
     0%   {left:-10vw; top: 70vh;}
-    25%	 {transform: rotate(40deg);}
-    50%	 {top: 10vh; transform: rotate(50deg);}
-    75%	 {transform: rotate(100deg);}
-    100% {left:110vw; top: 40vh;}
+    25%	 {top: 30vh; transform: rotate(40deg);}
+    50%	 {top: 10vh; transform: rotate(40deg);}
+    75%	 {top: 15vh; transform: rotate(40deg);}
+    100% {left:110vw; top: 20vh; transform: rotate(40deg);}
 }
 
 
