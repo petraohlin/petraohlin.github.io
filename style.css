@@ -87,7 +87,7 @@ body {
 }
 
 #bicycle{
-	top: 144.8vh;
+	top: 145vh;
 	position: absolute;
 	/* Chrome, Safari, Opera */
 	-webkit-animation-timing-function: linear;
@@ -100,7 +100,7 @@ body {
 }
 
 #motorcycle{
-	top: 144.8vh;
+	top: 145vh;
 	position: absolute;
 	/* Chrome, Safari, Opera */
 	-webkit-animation-timing-function: ease-in;
@@ -113,7 +113,7 @@ body {
 }
 
 #ambulance{
-	top: 144.7vh;
+	top: 145vh;
 	position: absolute;
 	/* Chrome, Safari, Opera */
 	-webkit-animation-timing-function: ease-in;
