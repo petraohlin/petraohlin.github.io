@@ -57,7 +57,7 @@ body {
 	width: 100vw;
 }
 
-.mint{
+.background-mint{
 	background-color: cadetblue;
 	top: 150vh;
 	position: absolute;
@@ -81,53 +81,6 @@ body {
 	font-size: 8vh;
 }
 
-.drive{
-    -webkit-animation: drive; /* Chrome, Safari, Opera */
-    animation: drive;
-}
-
-#bicycle{
-	top: 145vh;
-	position: absolute;
-	/* Chrome, Safari, Opera */
-	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 20s; 
-    -webkit-animation-iteration-count: infinite;
-    /* Standard */
-	animation-timing-function: linear;
-    animation-duration: 20s;
-   	animation-iteration-count: infinite;
-}
-
-#motorcycle{
-	top: 145vh;
-	position: absolute;
-	/* Chrome, Safari, Opera */
-	-webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 10s; 
-    -webkit-animation-iteration-count: infinite; 
-    /* Standard */
-	animation-timing-function: ease-in;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-#ambulance{
-	top: 145vh;
-	position: absolute;
-	/* Chrome, Safari, Opera */
-	-webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 10s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: reverse; 
-
-    /* Standard */
-	animation-timing-function: ease-in;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-
-}
 
 #plane{
 	position: absolute;
@@ -138,18 +91,6 @@ body {
     animation: fly 15s linear 5s infinite; 
 }
 
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes drive {
-    from {left: -10vw;}
-    to {left: 100vw;}
-}
-
-/* Standard syntax */
-@keyframes drive {
-    from {left: -10vw;}
-    to {left: 100vw;}
-}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes fly {
